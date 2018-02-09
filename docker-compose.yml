@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  stego:
+    image: stego
+    build:
+      context: .\Stego
+      dockerfile: Dockerfile

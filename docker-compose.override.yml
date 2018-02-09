@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  stego:
+    ports:
+      - "80"
+networks:
+  default:
+    external:
+      name: nat

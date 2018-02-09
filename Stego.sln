@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stego", "Stego\Stego.csproj", "{28C6DAC6-7A06-4C95-894B-201EB264F2E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stego.Tests", "Stego.Tests\Stego.Tests.csproj", "{0E1D1E42-1BF3-4904-BA37-026ADCE5CBD6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F673FC3C-3FA5-4743-85AC-7461624AEA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C6DAC6-7A06-4C95-894B-201EB264F2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C6DAC6-7A06-4C95-894B-201EB264F2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C6DAC6-7A06-4C95-894B-201EB264F2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C6DAC6-7A06-4C95-894B-201EB264F2E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1D1E42-1BF3-4904-BA37-026ADCE5CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1D1E42-1BF3-4904-BA37-026ADCE5CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1D1E42-1BF3-4904-BA37-026ADCE5CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1D1E42-1BF3-4904-BA37-026ADCE5CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F673FC3C-3FA5-4743-85AC-7461624AEA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F673FC3C-3FA5-4743-85AC-7461624AEA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F673FC3C-3FA5-4743-85AC-7461624AEA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F673FC3C-3FA5-4743-85AC-7461624AEA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E92C4933-7EC4-40C1-A941-BBDD661F3EC3}
+	EndGlobalSection
+EndGlobal
